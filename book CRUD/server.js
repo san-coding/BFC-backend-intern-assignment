@@ -21,6 +21,8 @@ app.get("/", (req, res) => {
     <li>POST add a new book /api/books</li>
     <li>Update author /api/authors/update/:id</li>
     <li> Update book /api/books/update/:id</li>
+    <li>Delete author /api/authors/delete/:id</li>
+    <li>Delete book /api/books/delete/:id</li>
     </ul>`);
 });
 
